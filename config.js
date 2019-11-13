@@ -4,5 +4,5 @@ module.exports = {
     process.env.NODE_ENV === "production"
       ? "mongodb+srv://hrishit:hrishit@cluster0-sopqq.mongodb.net/test?retryWrites=true&w=majority"
       : "mongodb://localhost:27017/postbook",
-  secretKey: "Secret key for jwt"
+  secretKey: "A secret key for jwt"
 };
